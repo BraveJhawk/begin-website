@@ -7,21 +7,21 @@ exports.handler = async function Index () {
     /**
      * Basic bio
      */
-    fullname: 'Your Name', // ←  Start by adding your name!
+    fullname: 'Sean', // ←  Start by adding your name!
     title: 'My personal site!',
-    occupation: 'Artist & Photographer',
-    location: 'West Glacier, MT',
+    occupation: 'Sean of all trades',
+    location: 'Atlanta, GA',
     bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.',
 
     /**
      * Contact / social
      * - Comment out any item below to remove it from your page
      */
-    email: 'your@email.com',
-    twitter: 'yourTwitter',
+    email: 'sccraig@gmail.com',
+    twitter: 'sccraig',
     linkedin: 'your-linkedin-name',
     instagram: 'yourInsta',
-    facebook: 'your-facebook-name',
+    facebook: 'seancraig',
 
     /**
      * Layout
@@ -29,9 +29,10 @@ exports.handler = async function Index () {
     photographer: 'Ivana Cajina',
     service: 'Unsplash',
     credit: 'https://unsplash.com/@von_co',
-    image: staticAssetsHelper('background.jpg')
+    // image: staticAssetsHelper('background.jpg')
     // or link to an external image URL such as ↓
     // image: 'https://images.unsplash.com/photo-1506535772317-9fdb71c959c6'
+    image: 'https://photos.google.com/share/AF1QipMFlEZHMF0r__xf19bS-l-FiZ4bHXIAQD3Rbj-h6Q2GkDYYE1XgvQSRSo_FsShiPw/photo/AF1QipOBGOYZly89G92-Z7qP3QmRVhbh6NCo6O_CxHG4?key=VEg4MWJOcTZIZXFjaVVBOFVnZmVpQ0ZhMGl5NHp3'
   })
 
   return {
