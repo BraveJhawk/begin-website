@@ -11,13 +11,13 @@ exports.handler = async function Index () {
     title: 'My personal site!',
     occupation: 'Sean of all trades',
     location: 'Atlanta, GA',
-    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.',
+    bio: 'A Lannister always pays his debts. More pigeon pie, please. Dunc the Lunk, thick as a castle wall. It\'s ten thousand miles between Kings landing and the wall. A good act does not wash out the bad, nor a bad act the good. Each should have its own reward.',
 
     /**
      * Contact / social
      * - Comment out any item below to remove it from your page
      */
-    email: 'sccraig@gmail.com',
+    // email: 'sccraig@gmail.com',
     twitter: 'sccraig',
     linkedin: 'seancc',
     instagram: 'bravejhawk',
