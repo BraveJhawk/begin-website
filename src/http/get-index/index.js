@@ -26,10 +26,10 @@ exports.handler = async function Index () {
     /**
      * Layout
      */
-    photographer: 'Ivana Cajina',
-    service: 'Unsplash',
-    credit: 'https://unsplash.com/@von_co',
-    image: staticAssetsHelper('background.jpg')
+    photographer: 'Sean Craig',
+    service: 'Twitter',
+    credit: 'https://twitter.com/sccraig',
+    image: staticAssetsHelper('IMG_3610.jpg')
     // or link to an external image URL such as ↓
     // image: 'https://images.unsplash.com/photo-1506535772317-9fdb71c959c6'
     // image: 'https://photos.google.com/share/AF1QipMFlEZHMF0r__xf19bS-l-FiZ4bHXIAQD3Rbj-h6Q2GkDYYE1XgvQSRSo_FsShiPw/photo/AF1QipOBGOYZly89G92-Z7qP3QmRVhbh6NCo6O_CxHG4?key=VEg4MWJOcTZIZXFjaVVBOFVnZmVpQ0ZhMGl5NHp3'
