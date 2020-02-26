@@ -1,12 +1,11 @@
-# Warning: do not edit
-# --------------------
-# This is a generated file and will be overwritten
-
 @app
-begin-app
+rain-naq
+
+@static
 
 @http
 get /
+get /fauna
 
 @tables
 data
