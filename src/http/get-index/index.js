@@ -27,7 +27,7 @@ exports.handler = async function Index () {
      * Layout
      */
     photographer: 'Sean Craig',
-    service: 'Twitter',
+    // service: 'Twitter',
     credit: 'https://twitter.com/sccraig',
     image: staticAssetsHelper('IMG_3610.jpg')
     // or link to an external image URL such as ↓
